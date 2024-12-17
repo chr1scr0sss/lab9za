@@ -2,6 +2,19 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int Rows, int Columns){
+    if(Rows <= 0 || Columns <=0){
+        cout << "Invalid input"; 
+    }
+	for(int R = 0; R < Rows; R++){
+for(int C = 0; C < Columns; C++){
+		cout << 'O';
+	}
+	cout << '\n';
+}
+}
+
+//return result;
 
 int main(){
 	
